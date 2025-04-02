@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1E3A5F;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: transparent;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links .active {
+    color: #4AB3F4;
+}
+
+.btn {
+    background: #4AB3F4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10%;
+}
+
+/* Left Content */
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.watch-video {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Right Image */
+.image-container img {
+    max-width: 500px;
+    height: auto;
+}
